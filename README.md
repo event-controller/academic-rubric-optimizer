@@ -20,3 +20,30 @@ The **Academic Rubric Optimizer (ARO)** is an agent instruction set engineered t
 
 ARO processes assignments through a multi-stage cognitive pipeline:
 
+
+```
+[Raw Assignment Prompt / Syllabus]
+                │
+                ▼
+      ┌──────────────────┐
+      │ Feedback Ingest  │ ──► Dynamically shifts baseline weights
+      └────────┬─────────┘
+               │
+               ▼
+      ┌──────────────────┐
+      │ Domain Detection │ ──► Selects variant (Essay, STEM, Case Study, etc.)
+      └────────┬─────────┘
+               │
+               ▼
+      ┌──────────────────┐
+      │ Algorithmic Math │ ──► Normalizes 5-Pillar matrix to exactly 100%
+      └────────┬─────────┘
+               │
+               ▼
+      ┌──────────────────┐
+      │  DoK Partition   │ ──► Allocates DoK 1-2 to AI, reserves DoK 3-4 for Human
+      └────────┬─────────┘
+               │
+               ▼
+[Backwards-Mapped Execution Roadmap]
+
